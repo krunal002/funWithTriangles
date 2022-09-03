@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Amita&family=Baloo+2:wght@500&family=Gotu&family=Halant:wght@300&family=Nanum+Gothic&family=Rozha+One&display=swap');
+*{
+    font-family: 'Halant', serif;
+    margin: 0%;
+}
+
+:root{
+    --primary-color: #d97706;
+    --secondary-color: #78350f;
+}
+
+body{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header h1{
+    color: #fff;
+    font-size: 3rem;
+    background-color: var(--primary-color);
+    margin: 0%;
+    padding: 1rem;
+}
+
+nav{
+    background-color: var(--secondary-color);
+    text-align: center;
+    margin: 0%;
+    padding: 0.5rem;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    max-width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0.2rem 1rem;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+button{
+    margin: 1rem auto;
+    padding: 0.1rem 1.5rem;
+    font-size: large;
+    font-weight: bold;
+}
+
+#output{
+    font-size: x-large;
+    font-weight: bolder;
+}
