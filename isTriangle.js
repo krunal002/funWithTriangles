@@ -1,5 +1,5 @@
 const angle = document.querySelectorAll(".angle-input");
-const checkTriangle = document.getElementById("#check-triangle");
+const checkTriangle = document.querySelector("#check-triangle");
 const output = document.querySelector("#output");
 
 checkTriangle = addEventListener("click", isTriangle);
