@@ -15,6 +15,9 @@ function isTriangle(){
             output.innerText = "You don't have Triangle!";
         }
     }
+    else{
+        output.innerText = "Give me all angles of triangle";
+    }
 }
 
 function calSumOfAngle(angle1, angle2, angle3){
